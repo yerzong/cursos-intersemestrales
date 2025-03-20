@@ -27,10 +27,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.macOS:
         return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -44,46 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA9L4xXXnXwPa62ioA2LShQ-0RdAcbeotc',
-    appId: '1:823307041176:web:ddaf3c80339832920653ed',
-    messagingSenderId: '823307041176',
-    projectId: 'codingwitht-c6d0f',
-    authDomain: 'codingwitht-c6d0f.firebaseapp.com',
-    databaseURL: 'https://codingwitht-c6d0f-default-rtdb.firebaseio.com',
-    storageBucket: 'codingwitht-c6d0f.appspot.com',
-    measurementId: 'G-GPNQNEKECP',
+    apiKey: 'AIzaSyCfCV3vUNYbONxummMRQ6Z8SsOPUAPErGU',
+    appId: '1:504992601174:web:8477753d4672b4c43c17f7',
+    messagingSenderId: '504992601174',
+    projectId: 'fb-cursos-intersemestrales',
+    authDomain: 'fb-cursos-intersemestrales.firebaseapp.com',
+    storageBucket: 'fb-cursos-intersemestrales.firebasestorage.app',
+    measurementId: 'G-5FFDEC1X66',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAdRjw0tdFdERdPZDoMagTbxPhSg368Zic',
-    appId: '1:823307041176:android:9de98c51c13865e60653ed',
-    messagingSenderId: '823307041176',
-    projectId: 'codingwitht-c6d0f',
-    databaseURL: 'https://codingwitht-c6d0f-default-rtdb.firebaseio.com',
-    storageBucket: 'codingwitht-c6d0f.appspot.com',
+    apiKey: 'AIzaSyCsB5wXhObVNEv5a5xiVsQUs6KH3F7qNy8',
+    appId: '1:504992601174:android:56507d00700d75443c17f7',
+    messagingSenderId: '504992601174',
+    projectId: 'fb-cursos-intersemestrales',
+    storageBucket: 'fb-cursos-intersemestrales.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDyypc4MyqBBneptEWpF17u3s7cu8X4wIY',
-    appId: '1:823307041176:ios:260b0463db0a8c5e0653ed',
-    messagingSenderId: '823307041176',
-    projectId: 'codingwitht-c6d0f',
-    databaseURL: 'https://codingwitht-c6d0f-default-rtdb.firebaseio.com',
-    storageBucket: 'codingwitht-c6d0f.appspot.com',
-    androidClientId: '823307041176-kun16mo723tugpbptbcbupndhaubv8cn.apps.googleusercontent.com',
-    iosClientId: '823307041176-8igffq47c0npbtgq0qsl5bu32tuufs51.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAFyRmt_Q_LrKQYgYY0zYEKxpxkcXr0Cf4',
+    appId: '1:504992601174:ios:0d1c8dc6b4df72cf3c17f7',
+    messagingSenderId: '504992601174',
+    projectId: 'fb-cursos-intersemestrales',
+    storageBucket: 'fb-cursos-intersemestrales.firebasestorage.app',
     iosBundleId: 'com.example.cwtEcommerceAdminPanel',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDyypc4MyqBBneptEWpF17u3s7cu8X4wIY',
-    appId: '1:823307041176:ios:7b67fa8db6b2840d0653ed',
-    messagingSenderId: '823307041176',
-    projectId: 'codingwitht-c6d0f',
-    databaseURL: 'https://codingwitht-c6d0f-default-rtdb.firebaseio.com',
-    storageBucket: 'codingwitht-c6d0f.appspot.com',
-    androidClientId: '823307041176-kun16mo723tugpbptbcbupndhaubv8cn.apps.googleusercontent.com',
-    iosClientId: '823307041176-lp36pj2a155ifcmkeil3p2ch72krur3t.apps.googleusercontent.com',
-    iosBundleId: 'com.example.cwtEcommerceAdminPanel.RunnerTests',
+    apiKey: 'AIzaSyAFyRmt_Q_LrKQYgYY0zYEKxpxkcXr0Cf4',
+    appId: '1:504992601174:ios:0d1c8dc6b4df72cf3c17f7',
+    messagingSenderId: '504992601174',
+    projectId: 'fb-cursos-intersemestrales',
+    storageBucket: 'fb-cursos-intersemestrales.firebasestorage.app',
+    iosBundleId: 'com.example.cwtEcommerceAdminPanel',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyCfCV3vUNYbONxummMRQ6Z8SsOPUAPErGU',
+    appId: '1:504992601174:web:98d79a8e174928373c17f7',
+    messagingSenderId: '504992601174',
+    projectId: 'fb-cursos-intersemestrales',
+    authDomain: 'fb-cursos-intersemestrales.firebaseapp.com',
+    storageBucket: 'fb-cursos-intersemestrales.firebasestorage.app',
+    measurementId: 'G-FC1HQT36EB',
+  );
+
 }
